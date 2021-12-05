@@ -1,0 +1,81 @@
+@import url("/assets/css/reset.css");
+
+body {
+    font-family: "Montserrat", "Ubuntu", "Open Sans", sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(78, 189, 254, 1);
+    background: -moz-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -webkit-gradient(
+        left top,
+        right bottom,
+        color-stop(0%, rgba(78, 189, 254, 1)),
+        color-stop(100%, rgba(55, 144, 217, 1))
+    );
+    background: -webkit-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: linear-gradient(135deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+    padding-top: 100px;
+    color: #fff;
+}
+
+.header-wrapper {
+    display: flex;
+}
+
+.header-offer {
+    margin-top: 144px;
+}
+
+.header-offer__title {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    padding-bottom: 59px;
+    font-size: 37px;
+}
+
+.header-offer__intro {
+    margin-bottom: 37px;
+}
+
+.header-offer__btn {
+    text-decoration: none;
+    color: #201b2d;
+    background-color: #ffd429;
+    padding: 20px 29px;
+}
+
+/* .header-offer__desktop {
+    position: relative;
+    background-color: #5CB2EE;
+    border-radius: 50%;
+    padding: 45px;
+    margin: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-offer__desktop_circle {
+    position: absolute;
+    border-radius: 50%;
+    top: 25px;
+    background-color: #41a5eb;
+    padding: 70px;
+    z-index: 0;
+} */
+
+
+
+/* #5CB2EE;
+    dark #41a5eb; */
