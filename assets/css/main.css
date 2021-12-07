@@ -1,14 +1,9 @@
-@import url("/assets/css/reset.css");
+@import url('/assets/css/reset.css');
 
 body {
     font-family: "Montserrat", "Ubuntu", "Open Sans", sans-serif;
     color: #201b2d;
     font-size: 15px;
-}
-
-.container {
-    width: 1170px;
-    margin: 0 auto;
 }
 
 .header {
@@ -29,20 +24,27 @@ body {
     color: #fff;
 }
 
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
 .header-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-offer {
-    margin-top: 140px;
+    width: 558px;
 }
 
 .header-offer__title {
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     padding-bottom: 55px;
-    width: 558px;
+    width: 100%;
+    height: auto;
     font-size: 37px;
 }
 
@@ -74,8 +76,23 @@ body {
     color: #ffd429;
 }
 
+.header-wrapper_desktop {
+    width: 600px;
+    height: 600px;
+}
+
+.header_desktop {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
 .main {
     padding: 100px 0 118px 0;
+}
+
+.main-wrapper__content {
+    width: 310px;
 }
 
 .main-wrapper {
@@ -100,9 +117,9 @@ body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     margin-bottom: 44px;
-    width: 310px;
     text-align: center;
     padding-top: 20px;
+    /* word-wrap: inherit; */
 }
 
 .order {
@@ -127,7 +144,7 @@ body {
 
 .order-form__item {
     box-sizing: border-box;
-    outline:none;
+    outline: none;
     margin-top: 15px;
     margin-bottom: 15px;
     height: 48px;
@@ -150,7 +167,7 @@ body {
 }
 
 .footer {
-    background-color: #164F7A;
+    background-color: #164f7a;
     color: #fff;
     padding: 62px 0;
 }
@@ -161,3 +178,4 @@ body {
     text-align: center;
     font-size: 14px;
 }
+

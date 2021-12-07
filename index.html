@@ -10,13 +10,15 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/response.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <img src="/assets/media/img/logo.png" alt="logo" class="header_logo">
-
+            <div class="header-logo_block">
+                <img src="/assets/media/img/logo.png" alt="logo" class="header-logo">
+            </div>
             <div class="header-wrapper">
                 <div class="header-offer">
                     <h1 class="header-offer__title">
@@ -30,8 +32,9 @@
                     </p>
                     <a href="#" class="header-offer__btn offer__btn">Двигаться к мечте!</a>
                 </div>
-
-                <img src="/assets/media/img/desktop.png" alt="desktop" class="header_desktop">
+                <div class="header-wrapper_desktop">
+                    <img src="/assets/media/img/desktop.png" alt="desktop" class="header_desktop">
+                </div>
             </div>
         </div>
     </header>
@@ -84,7 +87,8 @@
                 <input type="text" name="name" placeholder="Имя" class="order-form__item" required>
                 <input type="mail" name="mail" placeholder="E-mail" class="order-form__item" required>
                 <input type="tel" name="tel" placeholder="Телефон" class="order-form__item" required>
-                <input type="text" name="place" placeholder="Куда я полечу в ближайшее время?" class="order-form__item" required>
+                <input type="text" name="place" placeholder="Куда я полечу в ближайшее время?" class="order-form__item"
+                    required>
                 <button type="submit" class="order-form__btn">Двигаться к мечте!</button>
             </form>
         </div>
@@ -92,7 +96,7 @@
 
     <footer class="footer">
         <div class="container">
-            <h4 class="footer_cont">© Все мои мечты защищены моим трудолюбием</h4>
+            <p class="footer_cont">© Все мои мечты защищены моим трудолюбием</p>
         </div>
     </footer>
 
